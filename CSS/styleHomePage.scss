@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Curse\ of\ the\ Zombie';
+    src: url(../font/Curse\ of\ the\ Zombie.ttf);
+}
+
+@font-face {
+    font-family: 'Ghastly\ Panic';
+    src: url(../font/Ghastly\ Panic.ttf);
+}
+
+@font-face {
+    font-family: 'QuattrocentoSans-Regular';
+    src: url(../fonts/QuattrocentoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'QuattrocentoSans-Regular';
+    src: url(../fonts/QuattrocentoSans-Regular.ttf);
+}
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+
+/*..........début.index..........*/
+/*.....body.....*/
+// #index-header {
+//     max-width: 1200px;
+
+
+//     &>h1 {
+//         width: 300px;
+//         text-align: center;
+//         color: red;
+//     }
+
+//     &>p {
+//         width: 300px;
+//         text-align: center;
+//         color: red;
+//     }
+// }
+
+main {
+    max-width: 1200px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url("../img/fondIndex1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    &>.bubble-down {
+        position: relative;
+        background-color: #333;
+        color: #fff;
+        border-radius: 50%;
+        padding: 20px;
+        font-size: 16px;
+        width: 400px;
+        height: 200px;
+        margin: 0 auto;
+        top: 150px;
+        text-align: center;
+
+        &>h1 {
+            width: 300px;
+            text-align: center;
+            color: red;
+            margin: 15px auto;
+            font-family: 'CurseoftheZombie', sans-serif;
+            
+        }
+    
+        &>p {
+            width: 300px;
+            text-align: center;
+            color: red;
+            margin: 15px auto;
+        }
+    }
+
+    &>.bubble-down::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -20px;
+        transform: translateX(-50%);
+        border-width: 10px;
+        border-style: solid;
+        border-color: #333 transparent transparent transparent;
+    }
+
+
+    &>#formulaires {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20%;
+
+
+        &>#inscription {
+            width: 500px;
+            height: 200px;
+            color: red;
+
+            &>form {
+                width: 500px;
+                height: 200px;
+
+                &>fieldset {
+                    width: 500px;
+                    height: 200px;
+                }
+            }
+
+        }
+
+        &>#connexion {
+            width: 500px;
+            height: 200px;
+            color: red;
+
+            &>form {
+                width: 500px;
+                height: 200px;
+
+                &>fieldset {
+                    width: 500px;
+                    height: 200px;
+                }
+            }
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+}
