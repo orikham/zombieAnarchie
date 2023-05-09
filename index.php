@@ -18,7 +18,7 @@
         <source src="" type="audio/AAC">
         Votre navigateur ne supporte pas l'élément audio.
     </audio>
-    <!-- <button onclick="toggleAudio()">Lecture/Pause</button> -->
+    
 
 
     <main>
